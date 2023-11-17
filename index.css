@@ -1,0 +1,53 @@
+/* CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#home-background{
+	background-image: linear-gradient(rgba(70, 130, 180, .5), rgba(178, 34, 34, .3)), url(https://wallpaperaccess.com/full/5651980.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: normal;
+	height: 100vh
+}
+
+#contact-background{
+	background-color: blanchedalmond;
+}
+
+#tools-background{
+	background-color: #5D6D7E;
+}
+
+.profile-picture{
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+	border: 2px solid black;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#isaias{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#about-me{
+	width: 400px;
+	margin: auto;
+}
+
+/*.tools-images{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: black	;
+}*/
