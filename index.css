@@ -49,5 +49,23 @@
 	border: 2px solid black;
 	margin-left: 20px;
 	margin-right: 20px;
-	background-color: black	;
-}*/
+}
+*/
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.social {
+  color: blue;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.social:hover {opacity: 1}
