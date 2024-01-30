@@ -13,40 +13,255 @@
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- W3.CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<link rel="stylesheet" href="./index.css">
 </head>
 
 <body id="home-background">
+
 	<!-- Nav Bar Start -->
-	<nav class="">
-		<div class="d-flex justify-content-center gap-5 p-3 bg-dark">
-			<div><a href="./index.html"class="text-decoration-none text-white">Home</a></div>
-			<div><a href="./projects.html"class="text-decoration-none text-white">Projects</a></div>
-			<div><a href="./contact.html"class="text-decoration-none text-white">Contact</a></div>
-			<div><a href="./tools.html"class="text-decoration-none text-white">Tools</a></div>
-		</div>
+	<nav class="navbar navbar-expand-lg fixed-top">
+	    <div class="container-fluid">
+	        <a class="navbar-brand" href="#">
+	            <img src="./images/logo-brand.png" alt="Your Logo" height="30">
+	        </a>
+	        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+	            <ul class="navbar-nav">
+	                <li class="nav-item">
+	                    <a class="nav-link" aria-current="page" href="#">Home</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#projects">Projects</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#tools">Tools</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#contact">Contact</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
 	</nav>
+
 	<!-- Nav Bar End -->
 
+
 	<!-- Landing Section Start -->
-	<section id="landing">
-		<div class="text-center mt-5">
+	<section id="landing" class="container">
+	    <div class="mt-5">
+	        <div class="row justify-content-center align-items-center">
+	            <div class="col-md-12 col-lg-3 mb-3 mb-lg-0 text-center align-self-center order-1 order-lg-2">
+	                <img src="./images/me.jpg" class="profile-picture">
+	            </div>
+	            <div class="col-md-12 col-lg-9 text-center text-lg-left order-2 order-lg-1">
+	                <p class="isaias mt-5">Isaias Glemao Jr</p>
+	                <h5 class="mainH1">Full Stack</h5>
+	                <h5 class="mainH1">Web Developer</h5>
+	                <p id="about-me">Hi, I'm Sai. I'm a Web Developer, passionate about programming. I enjoy playing mobile games in my free time, and I'm always eager to explore new opportunities for personal growth and professional development. Let's connect and share our stories and ideas!
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+	</section>
 
-			<div class="d-md-inline-block d-lg-inline-block">
-				<img src="./images/me.jpg" class="profile-picture">
-			</div>
+	<!-- Landing Section End -->	
 
-			<h1 id="isaias">Isaias Glemao Jr.</h1>
 
-			<h5>Full Stack Web Developer</h5>
+	<!-- Project Section Start -->
+	<section id="projects" class="container-lg">
+	    <div class="row justify-content-center align-items-center">
+	        <div class="col-lg-12 text-center">
+	            <!-- My Projects Heading -->
+	            <div class="p-4 text-white">
+	                <h1 class="mb-3">My Projects</h1>
+	            </div>
+	        </div>
 
-			<p id="about-me">Hi, I'm Sai. I'm a Web Developer, passionate about programming. I enjoy playing mobile games in my free time, and I'm always eager to explore new opportunities for personal growth and professional development. Let's connect and share our stories and ideas!
-			</p>
+	        <div class="col-lg-4 col-md-6 col-sm-12">
+	            <!-- Project 1 -->
+	            <div class="p-4 text-dark w3-animate-zoom">
+	                <a href="https://isaiasjr05.github.io/sample-website/" target="_blank" class="card-link">
+	                    <div class="card bg-dark text-white mb-3">
+	                        <img src="./images/project-1.png" class="card-img-top" alt="Project 1">
+	                        <div class="card-body">
+	                            <h5 class="card-title text-center">Project 1</h5>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	        </div>
+
+	        <div class="col-lg-4 col-md-6 col-sm-12">
+	            <!-- Project 2 -->
+	            <div class="p-4 text-dark w3-animate-zoom">
+	                <a href="https://isaiasjr05.github.io/sample-project/" target="_blank" class="card-link">
+	                    <div class="card bg-dark text-white mb-3">
+	                        <img src="./images/project-2.png" class="card-img-top" alt="Project 2">
+	                        <div class="card-body">
+	                            <h5 class="card-title text-center">Project 2</h5>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	        </div>
+
+	        <div class="col-lg-4 col-md-6 col-sm-12">
+	            <!-- Project 3 -->
+	            <div class="p-4 text-dark w3-animate-zoom">
+	                <a href="https://isaiasjr05.github.io/sample-project2/" target="_blank" class="card-link">
+	                    <div class="card bg-dark text-white mb-3">
+	                        <img src="./images/project-3.png" class="card-img-top" alt="Project 3">
+	                        <div class="card-body">
+	                            <h5 class="card-title text-center">Project 3</h5>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<!-- Project Section End -->
+
+
+	<!-- Tools Section Start -->
+	<section id="tools" class="tools-background">
+		<div class="container-fluid text-center my-5">
+			<h1>Tools I Use</h1>
+				<div class="d-md-flex flex-md-row justify-content-center">
+					<a href="https://git-scm.com/" target="_blank">
+						<img src="./images/logo-git.png" class="zoom" />
+					</a>
+
+					<a href="https://www.sublimetext.com/" target="_blank">
+						<img src="./images/logo-sublime-text-3.png" class="zoom"/>
+					</a>
+
+					<a href="https://html.com/" target="_blank">
+						<img src="./images/logo-html5.png" class="zoom" />
+					</a>	
+
+					<a href="https://www.css3.com/" target="_blank">
+						<img src="./images/logo-css3.png" class="zoom" />
+					</a>
+					
+					<a href="https://getbootstrap.com/" target="_blank">	
+						<img src="./images/logo-bootstrap.png" class="zoom" />
+					</a>	
+				</div>	
+			</div>	
 		</div>	
 	</section>
-	<!-- Landing Section End -->	
+	<!-- Tools Section End -->
+
+
+	<!-- Contact Section Start -->
+	<section id="contact">
+
+		<header>	
+			<h1 class="text-center my-3">Contact Us!</h1>
+		</header>	
+
+		<div class="d-flex justify-content-center">
+			<div class="col-1">
+				<a href="https://www.facebook.com/isaiasjr.glemao/" target="_blank">
+				<img src="https://i.imgur.com/QQ89Rt3.jpeg/" class="img-fluid w-50 social"> 
+				</a>
+			</div>	
+
+			<div class="col-1">	
+				<a href="https://www.linkedin.com/in/isaias-glemao-jr-47276a266/" target="_blank">
+				<img src="https://i.imgur.com/OQUXwNp.jpeg" class="img-fluid w-50 social">	
+				</a>
+			</div>	
+
+			<div class="col-1">
+				<a href="https://www.instagram.com/" target="_blank">
+				<img src="https://i.imgur.com/JdLvg67.png" class="img-fluid w-50 social">	
+				</a>
+			</div>	
+
+			<div class="col-1">	
+				<a href="https://twitter.com/" target="_blank">
+				<img src="https://i.imgur.com/0Rz10Ws.png" class="img-fluid w-50 social">	
+				</a>
+			</div>	
+		</div>
+		<h4 class="text-center mt-3">Social Media</h4>
+	</section>
+	<!-- Contact Section End -->
+
+	<!-- Message Section Start -->
+
+	<section id="form">
+		<h1 class="text-center my-5">Message Us!</h1>
+		
+		<div class="d-flex justify-content-center">
+			<form>
+				<div class="d-flex flex-column text-center">
+					<label for="firstName">First Name: </label>
+					<input type="text" name="firstName" id="firstName" class="form-input" required autocomplete/>
+				</div>	
+
+				<div class="d-flex flex-column text-center">		
+					<label for="lastName">Last Name: </label>
+					<input type="text" name="lastName" id="lastName" class="form-input" required autocomplete/>
+				<div class="d-flex flex-column text-center">
+					<label for="email">Email: </label>
+					<input type="text" name="email" id="email" class="form-input" required autocomplete/>
+				</div>	
+
+				<div class="d-flex flex-column text-center">
+					<label for="contactNum">Contact Number: </label>
+					<input type="text" name="contactNum" id="contactNum" class="form-input" required autocomplete/>
+				</div>
+
+				<div class="d-flex flex-column text-center">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="5" class="msgForm"></textarea>
+				</div>
+
+				<!-- Button trigger modal -->
+				<div class="d-flex justify-content-center">
+					<div class="d-flex flex-column my-2">
+						<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+					
+					<div class="d-flex flex-column my-2">		
+						<button type="reset" class="btn btn-danger">Reset</button>
+					</div>
+				</div>	
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmation</h1>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				        Do you want to submit your details?
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				        <button type="submit" class="btn btn-primary">Save changes</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Message Section End -->
+
+
 
 	<!-- Boostrap Script -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
